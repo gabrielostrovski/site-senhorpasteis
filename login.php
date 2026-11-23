@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'conexao.php';
+require_once 'infra/conexão.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
